@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Comics</string>
+    <string name="title">title</string>
+    <string name="description">description</string>
+    <string name="description2">description2</string>
+    <string name="date">dd/MM/yyyy</string>
+    <string name="searching"> Enter the comic number</string>
+    <string name="pervious">pervious</string>
+    <string name="next">next</string>
+</resources>
