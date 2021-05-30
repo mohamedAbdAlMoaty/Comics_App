@@ -138,7 +138,9 @@ class ComicsActivity : AppCompatActivity() ,View.OnClickListener  {
                 val typing:String=textView.text.trim().toString()
                 if(!typing.isEmpty()){
                     counter=typing.toInt()
-                    comicsViewModel.getComics(counter)
+                    if(counter <= max_comics_number){
+                        comicsViewModel.getComics(counter)
+                    }
                 }
 
             }
